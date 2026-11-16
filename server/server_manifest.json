@@ -1,0 +1,12 @@
+{
+  "id": "antigravity-bridge",
+  "name": "Antigravity 遠端指揮伺服器",
+  "version": "1.0.0",
+  "entry_command": [".venv\\Scripts\\python.exe", "main.py"],
+  "port": 8765,
+  "health_url": "http://127.0.0.1:8765/api/health",
+  "enable_tunnel": true,
+  "token_file": ".env",
+  "token_key": "BRIDGE_TOKEN",
+  "description": "Antigravity 手機遠端指揮系統 FastAPI + WebSocket + FCM 後端"
+}

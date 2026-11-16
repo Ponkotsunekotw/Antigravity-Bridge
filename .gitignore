@@ -1,0 +1,38 @@
+# Separate sub-repo
+CruiseLink/
+
+# Runtime / local state / secrets
+config/
+data/
+img/
+logs/
+updates/
+*.tmp
+*.log
+*.jks
+*.keystore
+keystore.properties
+local.properties
+google-services.json
+serviceAccountKey*.json
+
+# Server runtime & secrets
+server/.env
+server/.venv/
+server/bridge_data/
+server/data/
+server/__pycache__/
+server/.pytest_cache/
+*.pyc
+
+# Android build artifacts
+*.apk
+*.ap_
+*.aab
+*.iml
+android-app/.gradle/
+android-app/.idea/
+android-app/.kotlin/
+android-app/build/
+android-app/app/build/
+.DS_Store
